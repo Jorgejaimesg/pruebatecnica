@@ -34,7 +34,8 @@ Cuando el programa esté corriendo, es necesario insertar datos de prueba en la 
 1. Navega hasta `src/main/resources` y abre el archivo `data.sql`.
 2. Ejecuta el siguiente script para insertar los datos iniciales:
 
-''' INSERT INTO categoria (nombre) VALUES
+```
+INSERT INTO categoria (nombre) VALUES
 ('Electronica'),
 ('Hogar'),
 ('Deportes'),
@@ -51,7 +52,8 @@ INSERT INTO producto (nombre, descripcion, precio, categoria_id) VALUES
 ('Camiseta', 'Camiseta deportiva de algodon', 20.00, 4),
 ('Pantalones', 'Pantalones de mezclilla para hombre', 40.00, 4),
 ('Barbie', 'Barbie articulada con accesorios', 35.00, 5),
-('Puzzle', 'Rompecabezas de 1000 piezas', 15.00, 5); '''
+('Puzzle', 'Rompecabezas de 1000 piezas', 15.00, 5);
+```
 
 ## Paso 5: Probar las Consultas con Insomnia
 
@@ -63,6 +65,7 @@ Una vez insertados los datos, puedes probar las consultas utilizando **Insomnia*
 
 Para la creación y actualización de productos, utiliza el siguiente formato:
 
+```
 {
 	"nombre": "",
 	"descripcion": "",
@@ -71,13 +74,16 @@ Para la creación y actualización de productos, utiliza el siguiente formato:
 		"id": 
 	}
 }
+```
 
 ### Peticiones `POST` para Categorías
 
 Para crear una categoría, utiliza el siguiente formato. Ten en cuenta que las categorías no tienen una petición `PUT`:
 
+```
 {
 	"nombre": ""
 }
+```
 
 
