@@ -86,4 +86,28 @@ Para crear una categoría, utiliza el siguiente formato. Ten en cuenta que las c
 }
 ```
 
+### EJEMPLOS
+
+#### GET
+aqui se pueden ver las consultas get tanto de categorias como de productos
+ `http://localhost:8081/categorias`
+![imagen](https://github.com/user-attachments/assets/e93f83bf-389b-4eda-a232-dc77888ab35b)
+
+productos tiene tres consultas get: 
+ 1. `http://localhost:8081/productos` en esta nos muestra todos los productos
+![imagen](https://github.com/user-attachments/assets/fc5ba646-ed70-4e3d-98ed-b91d7e10a007)
+
+2. `http://localhost:8081/productos/categoria/1` en esta nos muestra todos los productos que pertenecen a la categoria 1
+![imagen](https://github.com/user-attachments/assets/b2450da7-ead4-420a-8f60-911462858abc)
+
+3. `http://localhost:8081/productos/1` en esta nos muestra solo el producto al que le corresponde el id
+![imagen](https://github.com/user-attachments/assets/c74d37d8-0e2d-4cc2-88b7-c93426e12690)
+
+
+ 
+
+
+
+ 
+
 
