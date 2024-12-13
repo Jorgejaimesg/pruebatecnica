@@ -89,25 +89,62 @@ Para crear una categoría, utiliza el siguiente formato. Ten en cuenta que las c
 ### EJEMPLOS
 
 #### GET
-aqui se pueden ver las consultas get tanto de categorias como de productos
+
+aqui se pueden ver las consultas `GET` tanto de categorias como de productos
+
  `http://localhost:8081/categorias`
+ 
 ![imagen](https://github.com/user-attachments/assets/e93f83bf-389b-4eda-a232-dc77888ab35b)
 
 productos tiene tres consultas get: 
+
  1. `http://localhost:8081/productos` en esta nos muestra todos los productos
+    
 ![imagen](https://github.com/user-attachments/assets/fc5ba646-ed70-4e3d-98ed-b91d7e10a007)
 
+
 2. `http://localhost:8081/productos/categoria/1` en esta nos muestra todos los productos que pertenecen a la categoria 1
+   
 ![imagen](https://github.com/user-attachments/assets/b2450da7-ead4-420a-8f60-911462858abc)
 
+
 3. `http://localhost:8081/productos/1` en esta nos muestra solo el producto al que le corresponde el id
+   
 ![imagen](https://github.com/user-attachments/assets/c74d37d8-0e2d-4cc2-88b7-c93426e12690)
 
 
+#### POST
+
+aqui se pueden ver las consultas `POST` tanto de categorias como de productos:
+
+
+ `http://localhost:8081/categorias`
+
+![imagen](https://github.com/user-attachments/assets/dc0af0c1-756f-41d8-920a-1ce228d6074a)
+
+
+ `http://localhost:8081/productos`
+
+![imagen](https://github.com/user-attachments/assets/0e07a174-eb71-47d4-b06c-249576b74ad2)
+
+
+
+#### DELETE
+
+aqui se pueden ver las consultas `DELETE` tanto de categorias como de productos:
+
+
+ `http://localhost:8081/productos/11` elimina el producto con el id 11
  
+![imagen](https://github.com/user-attachments/assets/fe0f7d92-b73a-49f1-90de-57f775cf6aff)
+
+`http://localhost:8081/categorias/6` elimina la cateoria con el id 6
+
+![imagen](https://github.com/user-attachments/assets/acdc70df-e5a2-4f33-a2c6-bdb0683b1e8a)
 
 
+#### PUT
 
- 
+aqui se pueden ver la consulta `PUT` tanto de productos:
 
-
+![imagen](https://github.com/user-attachments/assets/f83b21ce-e29b-42e5-9dc2-c86561e9f426)
